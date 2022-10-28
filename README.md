@@ -16,4 +16,6 @@ Week 5 (15/10/2022):
 Week 6 (22/10/2022)
 + Tìm hiểu và thực hiện kết nối Firebase.
 
-Continue.......
+Week 7 (29/10/2022)
++ Tìm hiểu Login và Register with firebase Google
++ Thiết kế giao diện và chức năng của Login và Register
