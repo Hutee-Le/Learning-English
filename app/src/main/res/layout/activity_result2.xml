@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTittleResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="#00FFCC"
+        android:text="Final result"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:text="00/00"
+        android:textSize="40dp"
+        android:layout_below="@+id/piechart" />
+
+    <com.androidplot.pie.PieChart
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        style="@style/APDefacto.Light"
+        android:id="@+id/piechart"
+        android:layout_below="@id/txtTittleResult"
+        android:layout_marginTop="14dp">
+    </com.androidplot.pie.PieChart>
+
+    <Button
+        android:id="@+id/BtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="327dp"
+        android:text="Back"
+        android:textSize="40dp"
+        android:layout_below="@+id/tv_result"/>
+</RelativeLayout>

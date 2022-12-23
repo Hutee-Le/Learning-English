@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D1F1F1">
+
+
+        <Button
+            android:id="@+id/BtnTrungBinh"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnKho"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="51dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BtnDe"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="Quizz for Beginner"
+            android:background="@color/purple_500"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BtnKho"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnDe"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="52dp"
+            android:text="Correct Words"
+            android:background="@color/purple_500"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button            android:background="@color/purple_500"
+
+            android:id="@+id/BtnBack"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnKho"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="55dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-8dp"
+            android:src="@drawable/choingay_english" />
+
+        <TextView
+            android:id="@+id/txtChooseLevel"
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="-8dp"
+            android:layout_marginRight="-8dp"
+            android:layout_marginBottom="474dp"
+            android:gravity="center_horizontal"
+            android:text="Game Selection"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="50dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "779813088344",
+    "project_id": "ttdaa-fc1b5",
+    "storage_bucket": "ttdaa-fc1b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779813088344:android:1911ef539aa1e977f52e2d",
+        "android_client_info": {
+          "package_name": "com.example.ttdaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779813088344-ppu22aola02f0vjra6jhnp3959jq7912.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuq6PP9FJWNOghyV1FprTKmNSZJEhwLDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779813088344-ppu22aola02f0vjra6jhnp3959jq7912.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
